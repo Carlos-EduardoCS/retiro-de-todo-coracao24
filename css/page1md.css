@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@media (min-width: 768px) and (orientation: landscape) {
+
+    .start{
+        background-image: url(../imgs/desktop/desktop-wpp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .logo{
+        width: 700px;
+        margin-top: 15vh;
+        margin-bottom: -200px;  
+    
+    }
+
+    .btn1{
+        padding: 5px;
+        height: 32px;
+        width: 256px;
+        border-radius: 5px;
+        background-color: #7a96a0;
+        border: 0px solid black;
+        margin-left: -40vw;
+    }
+  
+  }

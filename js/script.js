@@ -5,3 +5,9 @@ window.sr = ScrollReveal({
     distance:'60px',
     
 });
+
+sr.reveal('button', {
+    delay: 200,
+    origin: 'left',
+    duration: 1000,
+});

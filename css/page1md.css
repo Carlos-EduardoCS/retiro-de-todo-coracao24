@@ -3,6 +3,10 @@
 
 @media (min-width: 768px) and (orientation: landscape) {
 
+    .hamburger, .logo-jni{
+        display: none;
+    }
+
     .start{
         background-image: url(../imgs/desktop/desktop-wpp.png);
         background-repeat: no-repeat;
@@ -16,6 +20,11 @@
     
     }
 
+
+    .logo-jni-pc{
+        width: 80px;
+    }
+
     .btn1{
         padding: 5px;
         height: 32px;
@@ -25,5 +34,32 @@
         border: 0px solid black;
         margin-left: -40vw;
     }
+
+
+
+    .pc-nav{
+        position: fixed;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        width: 100%;
+        padding: 25px;
+        background: rgba(139, 138, 138, 0.35);
+    }
+
+    .ul-pc-nav{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        line-height: px;
+        gap: 20px;
+        margin-right: 50px;
+    }
+
+    .ul-pc-nav > a {
+        font-weight: normal;
+        color: #f7f7f7;
+    }
   
   }
+

@@ -3,8 +3,43 @@
 
 @media (min-width: 768px) and (orientation: landscape) {
 
-    .hamburger, .logo-jni{
+    
+    #header,.hamburger, .logo-jni{
         display: none;
+    }
+
+    #nav-desktop, #menu{
+        display: block;
+    }
+
+    #header-pc{
+        display: flex;
+        position: fixed;
+        justify-content: space-around;
+        gap: 5px;
+        background: rgba(139, 138, 138, 0.35);
+        width: 100vw;
+        padding: 5px;
+        line-height: 105px;
+        z-index: 1;
+    }
+
+    .ul-desktop{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        list-style: none;
+        
+    }
+
+    .ul-desktop > a{
+        border-bottom: none;
+    }
+
+    .ul-desktop > a:hover{
+        font-size: 16px;
+        border-bottom: rebeccapurple 2px solid;
+        color: rebeccapurple;
     }
 
     .start{
@@ -22,7 +57,7 @@
 
 
     .logo-jni-pc{
-        width: 80px;
+        width: 110px;
     }
 
     .btn1{
@@ -35,31 +70,6 @@
         margin-left: -40vw;
     }
 
-
-
-    .pc-nav{
-        position: fixed;
-        display: flex;
-        z-index: 1;
-        justify-content: space-around;
-        width: 100%;
-        padding: 25px;
-        background: rgba(139, 138, 138, 0.35);
-    }
-
-    .ul-pc-nav{
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        line-height: px;
-        gap: 20px;
-        margin-right: 50px;
-    }
-
-    .ul-pc-nav > a {
-        font-weight: normal;
-        color: #f7f7f7;
-    }
   
   }
 

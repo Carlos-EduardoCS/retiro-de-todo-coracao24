@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;800&display=swap');
 
 /* DISPLAY NONE */
-.pc-nav{
+#header-pc, .pc-nav{
     display: none
 }
 
@@ -265,7 +265,7 @@ a{
 /* START PAGE 2 */
 
 .page2{
-    background-image: url(../imgs/mobile/ave.png);
+    background-image: url(../imgs/mobile/date.png);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -396,8 +396,8 @@ a{
 
 .page4{
     background-color: rgb(255, 255, 255);
-    background-image: url(../imgs/mobile/);
-    background-position: left;
+    background-image: url(../imgs/mobile/ministers.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;

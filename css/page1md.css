@@ -19,8 +19,9 @@
         gap: 5px;
         background: rgba(139, 138, 138, 0.35);
         width: 100vw;
+        height: 100px;
         padding: 5px;
-        line-height: 105px;
+        line-height: 90px;
         z-index: 1;
     }
 
@@ -43,7 +44,7 @@
     }
 
     .start{
-        background-image: url(../imgs/desktop/desktop-wpp.png);
+        background-image: url(../imgs/desktop/production_id_4812187-_360p_\ \(2\).gif);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -58,16 +59,12 @@
 
     .logo-jni-pc{
         width: 110px;
+        margin-top: -10px;
     }
 
-    .btn1{
-        padding: 5px;
-        height: 32px;
-        width: 256px;
-        border-radius: 5px;
-        background-color: #7a96a0;
-        border: 0px solid black;
-        margin-left: -40vw;
+    .button2{
+        margin-top: 70px;
+        margin-left: -30vw;
     }
 
   

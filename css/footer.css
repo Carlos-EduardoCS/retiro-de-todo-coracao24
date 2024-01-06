@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (orientation: landscape){
+
+    footer{
+        position: bottom;
+    }
+
+    .logos-in-footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .jni-brand-footer{
+        width: 300px;
+    }
+
+    .line1{
+        line-height: 300px; 
+        font-size: medium
+    }
+
+}

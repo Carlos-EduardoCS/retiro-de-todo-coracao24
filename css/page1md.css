@@ -38,9 +38,8 @@
     }
 
     .ul-desktop > a:hover{
-        font-size: 16px;
-        border-bottom: rebeccapurple 2px solid;
-        color: rebeccapurple;
+        font-size: 16.4px;
+        border-bottom: rgb(68, 68, 68) 2px solid;
     }
 
     .start{
@@ -67,6 +66,140 @@
         margin-left: -30vw;
     }
 
+    .mov1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .map{
+        display: block;
+        margin: 0 auto 50px auto ;
+        border: 1px solid white;
+        box-shadow: 10px 5px 50px rgba(255, 255, 255, 0.432);
+        width: 950px;
+    }
+
+    .in-bx{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .bx{
+        text-align: center;
+        border: 1px solid white;
+        background: linear-gradient(173deg, rgba(0,98,113,1) 0%, rgba(51,121,153,1) 35%, rgba(51,121,153,1) 100%);
+        padding: 20px;
+        border-radius: 10px;
+        height: 200px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .bx2{
+        text-align: center;
+        border: 1px solid white;
+        background: linear-gradient(173deg, rgba(0,98,113,1) 0%, rgba(51,121,153,1) 35%, rgba(51,121,153,1) 100%);
+        padding: 20px;
+        border-radius: 10px;
+        height: 200px;
+        width: 350px;
+    }
+    
+    .bx3{
+        text-align: center;
+        border: 1px solid white;
+        background: linear-gradient(173deg, rgba(0,98,113,1) 0%, rgba(51,121,153,1) 35%, rgba(51,121,153,1) 100%);
+        padding: 20px;
+        border-radius: 10px;
+        height: 200px;
+        width: 350px;
+    }
+
+    .page4{
+        height: 100vh;
+    }
+
+    .in-lineup{
+        display: flex;
+        gap: 10px;
+    }
+
+    .person{
+    background: rgba(187, 187, 187, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(248, 248, 248, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 280px;
+    border-radius: 10px;
+    height: 370px;
+    display: block;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    text-align: center;
+    }
+
+    .person:hover{
+    padding: -50px;
+    cursor: pointer;
+    box-shadow:  1px 1px 80px rgba(0, 0, 0, 0.199);
+    transition: 1s ease-in-out;
+    }
+
+    .lineup{
+        margin-top: 150px;
+    }
+
+    .page2{
+        background-image: url(../imgs/desktop/wpp-date.png);
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .in-datas{
+        width: 500px;
+    }
+
+    .page6{
+    background-color: #0000002f;
+    background-image: url(../imgs/desktop/production_id_4812187-_360p_\ \(2\).gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: #fff;
+    }
+    
+    .in-regas{
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        display: block;
+        margin: 30px auto 30px auto;
+        width: 550px;
+    }
+
+    .inscrição{
+        margin-top: -20px;
+    }
+
+    footer{
+        position: bottom;
+    }
+
+    .logos-in-footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .jni-brand-footer{
+        width: 20px;
+    }
+}
+
   
-  }
+  
 

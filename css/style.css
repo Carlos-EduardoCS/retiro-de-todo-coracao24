@@ -254,7 +254,7 @@ a{
 .logo{
     width: 350px;
     margin-left: -5px;
-    margin-top: 19vh;
+    margin-top: 17vh;
     margin-bottom: -80px;
 
 }
@@ -360,7 +360,7 @@ a{
     background: linear-gradient(173deg, rgba(0,98,113,1) 0%, rgba(51,121,153,1) 35%, rgba(51,121,153,1) 100%);
     padding: 20px;
     border-radius: 10px;
-    height: 110px;
+    height: 135px;
 }
 
 .bx3{
@@ -396,7 +396,7 @@ a{
 
 .page4{
     background-color: rgb(255, 255, 255);
-    background-image: url(../imgs/mobile/ministers.png);
+    background-image: url(../imgs/mobile/location_20240107_115437_0000.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -404,11 +404,15 @@ a{
 }
 
 .ft-person{
-    width: 190px;
+    width: 205px;
+    height: 210px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.384);
+    
 
-}
+} 
 
 .person{
     background: rgba(187, 187, 187, 0.35);
@@ -453,7 +457,7 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 56vh;
+    height: 72vh;
     padding: 30px;
     color: #fff;
 }
@@ -561,7 +565,7 @@ a{
   footer{
     background-color: black;
     text-align: center;
-    padding: 30px;
+    padding: 35px;
   }
   .jni-brand-footer{
     width: 85px;

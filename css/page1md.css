@@ -186,6 +186,10 @@
         margin-top: -20px;
     }
 
+    .in-inscrição{
+        margin-top: 5%;
+    }
+
     footer{
         position: bottom;
     }
@@ -197,6 +201,30 @@
 
     .jni-brand-footer{
         width: 20px;
+    }
+
+    .ft-person{
+        width: 290px;
+        height: 290px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.384);
+    }
+
+    .person{
+        width: 340px;
+        height: 450px;
+    }
+
+    .page4{
+        background-image: url(../imgs/desktop/20240107_115829_0000.png);
+        background-image: url(../imgs/mobile/location_20240107_115437_0000.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .in-bx:hover{
+        cursor: pointer;
     }
 }
 

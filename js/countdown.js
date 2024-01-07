@@ -29,4 +29,3 @@ function formatTime(time) {
 countDown();
 
 setInterval(countDown, 1000);
-
